@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicAnalysis", "PicAnalysis\PicAnalysis.csproj", "{FD7680B8-D831-423B-8149-C97D4BA6BB05}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90} = {10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineMCPLib", "MineMCPLib\MineMCPLib.csproj", "{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD7680B8-D831-423B-8149-C97D4BA6BB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7680B8-D831-423B-8149-C97D4BA6BB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7680B8-D831-423B-8149-C97D4BA6BB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7680B8-D831-423B-8149-C97D4BA6BB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E56A64-FC8D-4D9C-8EFF-D494C56F4C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F48C81-D161-42DC-AC56-CECC0AE74E5C}
+	EndGlobalSection
+EndGlobal
